@@ -64,7 +64,7 @@ export default [
             "import/no-duplicates": "error",
             "unused-imports/no-unused-imports": "error",
             "unused-imports/no-unused-vars": [
-                "error",
+                "warn",
                 {
                     vars: "all",
                     varsIgnorePattern: "^_",
