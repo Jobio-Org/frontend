@@ -3,5 +3,9 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": "explicit",
         "source.organizeImports": "explicit"
-    }
+    },
+    "i18n-ally.localesPaths": [
+        "src/app/i18n",
+        "src/shared/locales"
+    ]
 }

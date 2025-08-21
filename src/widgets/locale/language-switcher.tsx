@@ -9,7 +9,7 @@ import { useLocale, useTranslations } from "next-intl";
 
 import { languages } from "@/app/i18n";
 
-import { Select } from "@/shared";
+import { Select } from "@/shared/ui/atoms";
 
 import styles from "./styles.module.scss";
 
