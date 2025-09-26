@@ -1,0 +1,65 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+
+    h2 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin: 0 0 8px 0;
+        text-align: center;
+        color: var(--mui-palette-text-primary);
+        letter-spacing: -0.02em;
+    }
+}
+
+.form :global(.space-y-6 > *:not(:first-child)) {
+    margin-top: 1.5rem;
+}
+
+.form :global(.w-full) {
+    width: 100%;
+    margin-top: 16px;
+    padding: 14px 24px;
+    font-weight: 600;
+    border-radius: 12px;
+    text-transform: none;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 8px rgba(var(--mui-palette-primary-main-rgb), 0.3);
+
+    &:hover {
+        box-shadow: 0 6px 20px rgba(var(--mui-palette-primary-main-rgb), 0.4);
+    }
+}
+
+.form :global(input) {
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    &:focus {
+        box-shadow: 0 4px 20px rgba(var(--mui-palette-primary-main-rgb), 0.2);
+    }
+}
+
+.form :global(label) {
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--mui-palette-text-primary);
+}
+
+.form :global(.text-sm) {
+    font-size: 0.875rem;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: var(--mui-palette-text-secondary);
+}
